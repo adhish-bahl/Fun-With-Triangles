@@ -8,6 +8,48 @@
     <title>Triangle Area</title>
 </head>
 <body>
+    <a href="./intex.html"><button type="button" class="backBtn btn">< Go Back</button></a>
+    <h1 class="heading">Calculate Area</h1>
+    <h3>Select an option below as per the data you have for a triangle</h3>
+    <p><input type="radio" name="inputChoice" id="inputChoice">
+    <label for="inputChoice">If you have base and height length</label></p>
+    <p><input type="radio" name="inputChoice" id="inputChoice">
+    <label for="inputChoice">If you have length of 3 sides</label></p>
+    <p><input type="radio" name="inputChoice" id="inputChoice">
+    <label for="inputChoice">If you have length of 2 sides and included angle</label></p>
+
+    <div class="baseHeight">
+        <img src="../images/hypotenuse.png" alt="triangle">
+        <div class="container">
+            <h2 class="label">base = </h2><input type="number" class="1length1 inputLength">
+            <h2 class="label">height = </h2><input type="number" class="1length2 inputLength">
+        </div>
+        <button type="submit" class="checkBtn1 checkBtn btn">Check</button>
+            <div class="output">Area = 1/2 * base * height</div>
+    </div>
+
+    <div class="baseHeight">
+        <img src="../images/hypotenuse.png" alt="triangle">
+        <div class="container">
+            <h2 class="label">a = </h2><input type="number" class="2length1 inputLength">
+            <h2 class="label">b = </h2><input type="number" class="2length2 inputLength">
+            <h2 class="label">c = </h2><input type="number" class="2length3 inputLength">
+        </div>
+        <button type="submit" class="checkBtn2 checkBtn btn">Check</button>
+            <div class="output">Area = √s(s-a)(s-b)(s-c)</div>
+    </div>
+
+    <div class="baseHeight">
+        <img src="../images/hypotenuse.png" alt="triangle">
+        <div class="container">
+            <h2 class="label">b = </h2><input type="number" class="2length1 inputLength">
+            <h2 class="label">c = </h2><input type="number" class="2length2 inputLength">
+            <h2 class="label">A(degree) = </h2><input type="number" class="2length3 inputLength">
+        </div>
+        <button type="submit" class="checkBtn3 checkBtn btn">Check</button>
+            <div class="output">Area = 1/2 * b * c * sin(A)</div>
+    </div>
+
     <script src="../JavaScript/area.js"></script>
 </body>
 </html>
