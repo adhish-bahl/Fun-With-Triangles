@@ -11,43 +11,43 @@
     <a href="./intex.html"><button type="button" class="backBtn btn">< Go Back</button></a>
     <h1 class="heading">Calculate Area</h1>
     <h3>Select an option below as per the data you have for a triangle</h3>
-    <p><input type="radio" name="inputChoice" id="inputChoice">
-    <label for="inputChoice">If you have base and height length</label></p>
-    <p><input type="radio" name="inputChoice" id="inputChoice">
-    <label for="inputChoice">If you have length of 3 sides</label></p>
-    <p><input type="radio" name="inputChoice" id="inputChoice">
-    <label for="inputChoice">If you have length of 2 sides and included angle</label></p>
+    <p><input type="radio" name="inputChoice" id="inputChoice1">
+    <label for="inputChoice1">If you have base and height length</label></p>
+    <p><input type="radio" name="inputChoice" id="inputChoice2">
+    <label for="inputChoice2">If you have length of 3 sides</label></p>
+    <p><input type="radio" name="inputChoice" id="inputChoice3">
+    <label for="inputChoice3">If you have length of 2 sides and included angle</label></p>
 
     <div class="baseHeight">
         <img src="../images/baseHeightTriangle.png" alt="triangle">
         <div class="container">
-            <h2 class="label">base = </h2><input type="number" class="1length1 inputLength">
-            <h2 class="label">height = </h2><input type="number" class="1length2 inputLength">
+            <h2 class="label">base = </h2><input type="number" class="length11 inputLength">
+            <h2 class="label">height = </h2><input type="number" class="length12 inputLength">
         </div>
         <button type="submit" class="checkBtn1 checkBtn btn">Check</button>
-            <div class="output">Area = 1/2 * base * height</div>
+            <div class="output1 output">Area = 1/2 * base * height</div>
     </div>
 
     <div class="sides3">
         <img src="../images/hypotenuse.png" alt="triangle">
         <div class="container">
-            <h2 class="label">a = </h2><input type="number" class="2length1 inputLength">
-            <h2 class="label">b = </h2><input type="number" class="2length2 inputLength">
-            <h2 class="label">c = </h2><input type="number" class="2length3 inputLength">
+            <h2 class="label">a = </h2><input type="number" class="length21 inputLength">
+            <h2 class="label">b = </h2><input type="number" class="length22 inputLength">
+            <h2 class="label">c = </h2><input type="number" class="length23 inputLength">
         </div>
         <button type="submit" class="checkBtn2 checkBtn btn">Check</button>
-            <div class="output">Area = √s(s-a)(s-b)(s-c)</div>
+            <div class="output2 output">Area = √s(s-a)(s-b)(s-c)</div>
     </div>
 
     <div class="sides2">
         <img src="../images/side3Triangle.png" alt="triangle">
         <div class="container">
-            <h2 class="label">b = </h2><input type="number" class="2length1 inputLength">
-            <h2 class="label">c = </h2><input type="number" class="2length2 inputLength">
-            <h2 class="label">A(degree) = </h2><input type="number" class="2length3 inputLength">
+            <h2 class="label">b = </h2><input type="number" class="length31 inputLength">
+            <h2 class="label">c = </h2><input type="number" class="length32 inputLength">
+            <h2 class="label">A(degree) = </h2><input type="number" class="length33 inputLength">
         </div>
         <button type="submit" class="checkBtn3 checkBtn btn">Check</button>
-            <div class="output">Area = 1/2 * b * c * sin(A)</div>
+            <div class="output3 output">Area = 1/2 * b * c * sin(A)</div>
     </div>
 
     <script src="../JavaScript/area.js"></script>
