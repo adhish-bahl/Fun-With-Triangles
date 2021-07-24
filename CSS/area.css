@@ -15,7 +15,8 @@ body {
     align-items: center;
     flex-direction: column;
     width: 99%;
-    height: 97vh;
+    /* height: 97vh; */
+    min-height: 97vh;
 }
 
 .container {
@@ -73,4 +74,20 @@ body {
     background-color: rgba(198, 16, 16, 0.829);
     padding: 10px 20px;
     border-radius: 15px;
+}
+
+.baseHeight {
+    display: none;
+}
+
+.sides3 {
+    display: none;
+}
+
+.sides2 {
+    display: none;
+}
+
+label {
+    font-size: 1.8rem;
 }
