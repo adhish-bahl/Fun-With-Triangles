@@ -1,0 +1,64 @@
+* {
+    box-sizing:content-box;
+    text-align: center;
+    outline: none;
+}
+
+body {
+    background-image: url("../images/triangles2.jpg");
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
+    height: 97vh;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputAngle {
+    padding: 5px;
+    width: 80px;
+    font-size: 1.3rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.heading {
+    width: 60%;
+}
+
+.btn {
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.backBtn {
+    background-color: rgb(43,69,102);
+    color: rgb(87,138,167);
+}
+
+.checkBtn {
+    color: rgb(43,69,102);
+}
+
+.output {
+    margin: 20px;
+    font-size: 1.6rem;
+    color: rgb(87,138,167);
+    background-color: rgba(198, 16, 16, 0.829);
+    padding: 10px 20px;
+    border-radius: 15px;
+}

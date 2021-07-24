@@ -49,6 +49,22 @@ a {
     background-color: rgb(198,17,16);
 }
 
+.angle {
+    border-top-left-radius: 30px;
+}
+
+.hypotenuse {
+    border-top-right-radius: 30px;
+}
+
+.area {
+    border-bottom-left-radius: 30px;
+}
+
+.quiz {
+    border-bottom-right-radius: 30px;
+}
+
 /* .container::before {
     content: "";
     background-color: red;
