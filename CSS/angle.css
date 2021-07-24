@@ -50,8 +50,20 @@ body {
     color: rgb(87,138,167);
 }
 
+.backBtn:hover {
+    background-color: rgb(23, 40, 61);
+    color: rgb(114, 177, 214);
+    text-decoration: underline;
+}
+
 .checkBtn {
     color: rgb(43,69,102);
+}
+
+.checkBtn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(87,138,167);
+    text-decoration: underline;
 }
 
 .output {
