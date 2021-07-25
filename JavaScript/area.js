@@ -59,10 +59,16 @@ btn2.addEventListener("click", ()=> {
         console.log(aVal,bVal, cVal);
         const s = (a + b + c) / 2;
         ans = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+        output2.textContent = "Area = " + ans;
     } else {
-        output2.textContent = "Error: triangle is not possibelwith above specs!";
+        output2.textContent = "Error: triangle is not possibel with above specs!";
     }  
-    output2.textContent = "Area = " + ans;
 });
 
-btn3.addEventListener("click", ()=> {});
+btn3.addEventListener("click", ()=> {
+    const b2Val = Number(b2.value);
+    const c2Val = Number(c2.value);
+    const angle2Val = Number(angle2.value);
+    let result3 = (b2Val * c2Val * Math.sin(angle2Val * Math.PI / 180)) / 2;
+    output3.textContent = "Area = " + result3;
+});
