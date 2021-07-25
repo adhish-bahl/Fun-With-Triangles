@@ -1,0 +1,19 @@
+* {
+    box-sizing:content-box;
+    text-align: center;
+    outline: none;
+}
+
+body {
+    background-image: url("../images/triangles2.jpg");
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
+    height: 97vh;
+}
