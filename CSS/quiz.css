@@ -18,6 +18,25 @@ body {
     height: 97vh;
 }
 
+.btn {
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.backBtn {
+    background-color: rgb(43,69,102);
+    color: rgb(87,138,167);
+}
+
+.backBtn:hover {
+    background-color: rgb(23, 40, 61);
+    color: rgb(114, 177, 214);
+    text-decoration: underline;
+}
+
 .footerLink a {
     text-decoration: none;
     display: inline-block;
