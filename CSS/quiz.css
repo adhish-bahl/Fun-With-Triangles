@@ -18,10 +18,14 @@ body {
     flex-direction: column;
     width: 99%;
     height: 97vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+.s35, .coffee {
+    background-color: rgba(129, 18, 18, 0.767);
 }
 
 .heading {
-    font-family: 'Dancing Script', cursive;
     font-size: 3.5rem;
 }
 
