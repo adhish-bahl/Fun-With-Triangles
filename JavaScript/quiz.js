@@ -41,7 +41,7 @@ btn2.addEventListener("click", ()=> {
 
 btn3.addEventListener("click", ()=> {
     btn3.style.display = "none";
-    s35.textContent = "Wait your system is slow! We are loading the messasage! Approx time remaining: 69.69 seconds... You are not allowed to take your eyes off the screen, bitch!";
+    s35.textContent = "Wait your system is slow, just like your brain, areyyy sorry sorry, tum to topper hona bhool gaya tha me .69 second ke liye! We are loading the messasage! Approx time remaining: 69.69 seconds... You are not allowed to take your eyes off the screen, bitch!";
     s35.style.display = "block";
     setTimeout(()=> {
         s35.textContent = "We used Adhish's power to load it faster! Your system is trash, just like you are!";
@@ -50,5 +50,5 @@ btn3.addEventListener("click", ()=> {
             coffee.style.display = "block";
             btn4.style.display = "none";
         }, 8000)
-    }, 16000)
+    }, 24000)
 })
